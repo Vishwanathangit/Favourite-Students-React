@@ -1,16 +1,72 @@
-<<<<<<< HEAD
-# React + Vite
+# 🎓 Favourite Student List - React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that lets you **add students to a favourites list** and **remove them**. Built using **React Router**, **Tailwind CSS**, and deployed on **Vercel**.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 [Live Link](https://favourite-students-react.vercel.app/)
 
-## Expanding the ESLint configuration
+🔗 [GitHub Repository](https://github.com/Vishwanathangit/Favourite-Students-React.git)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Favourite-Students-React
->>>>>>> ad8b7ef82b558e389a6fadef81abf8f46b7a2ef5
+## 🧾 Features
+
+- View a list of students
+- Add a student to favourites
+- Disable the "Add to Favourite" button after adding
+- Remove students from favourites
+- Navigation between All Students and Favourite Students using Header links
+- Responsive design with Tailwind CSS
+
+## 🗂️ Folder Structure
+<pre>
+  ```
+  favourite-student-list/
+├── node_modules/
+├── public/
+├── src/
+│ ├── assets/
+│ ├── components/
+│ │ └── Header.jsx
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ └── Faviourite.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ ├── main.jsx
+│ └── index.css
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+├── vercel.json
+├── vite.config.js
+  ```
+</pre>
+
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- React Router DOM
+- Tailwind CSS
+- Vite
+- Vercel (for deployment)
+
+---
+
+## 📦 Installation & Setup
+
+# Clone the repository
+git clone https://github.com/your-github-username/favourite-student-list.git
+
+# Navigate to the project directory
+cd favourite-student-list
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+
